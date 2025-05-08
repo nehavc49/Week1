@@ -8,13 +8,13 @@ df = pd.read_csv('sales_data.csv')
 quantity = df['Quantity'].values
 total = df['Total'].values
 
-print("🔢 Quantity Stats:")
+print("Quantity Stats:")
 print("Mean:", np.mean(quantity))
 print("Median:", np.median(quantity))
 print("Standard Deviation:", np.std(quantity))
 print()
 
-print("💰 Total Sales Stats:")
+print("Total Sales Stats:")
 print("Mean:", np.mean(total))
 print("Median:", np.median(total))
 print("Standard Deviation:", np.std(total))
