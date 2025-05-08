@@ -24,4 +24,4 @@ df['Discount'] = np.where(df['Quantity'] > 10, df['Total'] * 0.10, 0)
 print(" DISCOUNTS:\n", df[['Product', 'Quantity', 'Total', 'Discount']], "\n")
 
 # 8. Create a pivot table for sales by Region and Product
-print("🗂️ PIVOT TABLE:\n", pd.pivot_table(df, values='Total', index='Region', columns='Product', aggfunc='sum', fill_value=0), "\n")
+print("PIVOT TABLE:\n", pd.pivot_table(df, values='Total', index='Region', columns='Product', aggfunc='sum', fill_value=0), "\n")
