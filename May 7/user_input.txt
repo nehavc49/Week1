@@ -1,1 +1,1 @@
-User input: hello world
+User input: hello
